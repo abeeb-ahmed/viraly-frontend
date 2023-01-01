@@ -19,7 +19,7 @@ const Register = () => {
     e.preventDefault();
     setLoading(true);
     try {
-      await axios.post("http://localhost:8000/api/auth/register", {
+      await axios.post("https://viraly-api.onrender.com/api/auth/register", {
         username,
         name,
         email,

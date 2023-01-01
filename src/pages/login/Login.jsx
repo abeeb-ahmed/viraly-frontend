@@ -18,7 +18,7 @@ const Login = () => {
     setLoading(true);
     try {
       const res = await axios.post(
-        "http://localhost:8000/api/auth/login",
+        "https://viraly-api.onrender.com/api/auth/login",
         {
           username,
           password,
